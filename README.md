@@ -2,8 +2,8 @@
 
 ## 🚀 Overview
 
-This project is a simple and responsive **image gallery webpage** built using **HTML and CSS Grid**.
-It is connected to the main homepage (`MiniProject.html`), where clicking on the **Gallery section** redirects users to this gallery page.
+This project is a responsive **image gallery website** built using **HTML, CSS Grid, and Bootstrap**.
+It is connected to the main homepage (`MiniProject.html`) and includes an additional **Exhibits section** with a Bootstrap-based UI.
 
 ---
 
@@ -11,8 +11,16 @@ It is connected to the main homepage (`MiniProject.html`), where clicking on the
 
 * `MiniProject.html` (Main Page)
 
-  * Click on **Gallery Section**
-  * Redirects to 👉 `gallery.html`
+  * Click on **Gallery Section** → Redirects to `gallery.html`
+  * Click on **Exhibits Section** → Redirects to Bootstrap page
+
+* **Bootstrap Page (Exhibits Section)**
+
+  * Includes a **Navbar** with:
+
+    * 🏠 Home → Redirects to `MiniProject.html`
+    * 🖼️ Gallery → Redirects to `gallery.html`
+    * 🔍 Search Box → Redirects to Google Search
 
 ---
 
@@ -20,6 +28,7 @@ It is connected to the main homepage (`MiniProject.html`), where clicking on the
 
 * HTML5
 * CSS3 (Grid Layout)
+* Bootstrap 5
 * Google Fonts
 * Material Icons
 
@@ -27,98 +36,78 @@ It is connected to the main homepage (`MiniProject.html`), where clicking on the
 
 ## 🎯 Features
 
-* 🖼️ 6-image grid layout
-* 📐 CSS Grid-based structure
+* 🖼️ Image Gallery with 6-grid layout
+* 📐 Responsive design using CSS Grid
 * 🎨 Modern UI with shadows and rounded corners
-* 🔍 Hover effects on images and the transform TranslateY is applied on the Hover effect
-* 🔗 Navigation back to Home Page
+* 🔍 Hover effects with `transform: translateY()`
+* 🔗 Multi-page navigation system
+* 📱 Bootstrap responsive navbar
+* 🌐 Integrated search functionality
 
 ---
 
 ## 📂 Project Structure
 
-```
-project-folder/
-│
-├── MiniProject.html          # Main homepage
-├── gallery.html        # Gallery page
-├── gallery.css         # Styling for gallery
-├── Project.css         # Additional styles
-└── README.md           # Project documentation
-```
 
+## 📂 Project Structure
+
+* MiniProject.html → Main homepage
+* gallery.html → Gallery page
+* Bootstrap.html → Bootstrap page
+* gallery.css → Gallery styling
+* Project.css → Main styles
+* bootstrap.css → Bootstrap styles
+* README.md → Documentation
+
+
+---
 
 ## 💡 Learning Outcomes
 
-* Understanding CSS Grid layout
+* Understanding **CSS Grid layout system**
+* Implementing **Bootstrap components (Navbar)**
 * Linking multiple pages using HTML
-* Handling images from internet sources
-* Creating responsive UI components
+* Creating responsive UI designs
+* Integrating external search functionality
+* Improving frontend project structure
+
+---
+
+## 📸 Screenshots
+
+### 📌 Main Page (MiniProject.html)
+
+![Main Page](https://github.com/user-attachments/assets/471c6d3f-da78-41e7-9dd1-18f1024ae5f4)
+
+### 📌 Gallery Page (gallery.html)
+
+![Gallery Page](https://github.com/user-attachments/assets/dcc46bd2-8407-4d3f-8958-3508d0b92ac3)
 
 
 
 
 
 
+### 📌 Exhibits Page (Bootstrap.html)
 
 
-📌 Main Page (MiniProject.html)
+<img width="1920" height="939" alt="Screenshot (189)" src="https://github.com/user-attachments/assets/6be84ce1-bef3-4119-8b18-9b17e9b0a2e0" />
 
 
-
-
-
-
-
-
-
-
-<img width="1920" height="969" alt="Screenshot (177)" src="https://github.com/user-attachments/assets/471c6d3f-da78-41e7-9dd1-18f1024ae5f4" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-📌 Gallery Page (gallery.html)
-
-
-
-
-
-
-
-
-
-
-<img width="1920" height="969" alt="Screenshot (178)" src="https://github.com/user-attachments/assets/dcc46bd2-8407-4d3f-8958-3508d0b92ac3" />
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 ## 👨‍💻 Author
 
 **Pratik Nawale**
+📧 [pratiknawale93@gmail.com](mailto:pratiknawale93@gmail.com)
 
+---
+
+## ⭐ Future Improvements
+
+* Add lightbox image preview
+* Add filtering (categories like Nature, Events, etc.)
+* Convert project into full-stack (upload images dynamically)
+* Deploy using Netlify or Vercel
+
+---
