@@ -3,7 +3,7 @@
 ## 🚀 Overview
 
 This project is a responsive **image gallery website** built using **HTML, CSS Grid, and Bootstrap**.
-It is connected to the main homepage (`MiniProject.html`) and includes an additional **Exhibits section** with a Bootstrap-based UI.
+It is connected to the main homepage (`MiniProject.html`) and includes an additional **Exhibits section** with a Bootstrap-based UI..
 
 ---
 
