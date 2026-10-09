@@ -106,6 +106,6 @@ It is connected to the main homepage (`MiniProject.html`) and includes an additi
 * Add lightbox image preview
 * Add filtering (categories like Nature, Events, etc.)
 * Convert project into full-stack (upload images dynamically)
-* Deploy using Netlify or Vercel or to the cloud like aws .
+* Deploy using Netlify or Vercel or to the cloud like aws or google cloud.
 
 ---
