@@ -7,7 +7,7 @@ It is connected to the main homepage (`MiniProject.html`) and includes an additi
 
 ---
 
-## 🔗 Navigation Flow
+## 🔗 Navigation Flows
 
 * `MiniProject.html` (Main Page)
 
